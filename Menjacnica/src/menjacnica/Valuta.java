@@ -77,6 +77,5 @@ public class Valuta {
 			return false;
 		return true;
 	}
-	
-	
+
 }

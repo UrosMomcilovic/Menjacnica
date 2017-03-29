@@ -21,8 +21,6 @@ public class Menjacnica implements menjacnicainterfejs {
 				break;
 			}
 		}
-
-
 	}
 
 	@Override
@@ -61,7 +59,6 @@ public class Menjacnica implements menjacnicainterfejs {
 				return trazena.getKursNaDan().get(i);
 			}
 		}
-		
 		throw new RuntimeException("Nije pronadjen trazeni kurs");
 	}
 
